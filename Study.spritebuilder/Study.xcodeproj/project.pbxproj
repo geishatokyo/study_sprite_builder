@@ -97,6 +97,9 @@
 		CD37AC451A75C456004FF517 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AC441A75C456004FF517 /* TitleScene.m */; };
 		CD37AC461A75C456004FF517 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AC441A75C456004FF517 /* TitleScene.m */; };
 		CD37AC471A75C456004FF517 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AC441A75C456004FF517 /* TitleScene.m */; };
+		CD37AC4C1A75D285004FF517 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AC4B1A75D285004FF517 /* Player.m */; };
+		CD37AC4D1A75D285004FF517 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AC4B1A75D285004FF517 /* Player.m */; };
+		CD37AC4E1A75D285004FF517 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AC4B1A75D285004FF517 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +213,8 @@
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		CD37AC441A75C456004FF517 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScene.m; path = Source/TitleScene.m; sourceTree = "<group>"; };
 		CD37AC491A75C46A004FF517 /* TitleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TitleScene.h; path = Source/TitleScene.h; sourceTree = "<group>"; };
+		CD37AC4A1A75D274004FF517 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Source/Player.h; sourceTree = "<group>"; };
+		CD37AC4B1A75D285004FF517 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Source/Player.m; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -439,6 +444,8 @@
 				D352B48019EC608A00829775 /* MetalShaders */,
 				CD37AC491A75C46A004FF517 /* TitleScene.h */,
 				CD37AC441A75C456004FF517 /* TitleScene.m */,
+				CD37AC4A1A75D274004FF517 /* Player.h */,
+				CD37AC4B1A75D285004FF517 /* Player.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -793,6 +800,7 @@
 				7A40360419DDEE84007B6E8F /* main.m in Sources */,
 				7A59498E19E3941300F65F90 /* AppDelegate.m in Sources */,
 				CD37AC471A75C456004FF517 /* TitleScene.m in Sources */,
+				CD37AC4E1A75D285004FF517 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,6 +808,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD37AC4D1A75D285004FF517 /* Player.m in Sources */,
 				CD37AC461A75C456004FF517 /* TitleScene.m in Sources */,
 				927F619E196C771E000F43EF /* MainScene.m in Sources */,
 				5B121030197484FA004C1E1D /* StudyActivity.m in Sources */,
@@ -814,6 +823,7 @@
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 				CD37AC451A75C456004FF517 /* TitleScene.m in Sources */,
+				CD37AC4C1A75D285004FF517 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

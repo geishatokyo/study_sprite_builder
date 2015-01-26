@@ -1,8 +1,10 @@
 #import "MainScene.h"
 
+#import "Player.h"
+
 @implementation MainScene
 {
-    __weak CCNode* _m;
+    __weak Player* _m;
 }
 
 - (void) didLoadFromCCB
@@ -21,17 +23,17 @@
     // 100以上はJump扱いにする
     if(touchPoint.y > 100) {
         if(touchPoint.x > currentPoint.x + 20) {
-            [[_m physicsBody] applyImpulse:CGPointMake(400, 400)];
+            [_m jump:1];
         } else if(touchPoint.x < currentPoint.x - 20) {
-            [[_m physicsBody] applyImpulse:CGPointMake(-400, 400)];
+            [_m jump:-1];
         } else {
-            [[_m physicsBody] applyImpulse:CGPointMake(0, 400)];
+            [_m jump:0];
         }
     } else {
         if(touchPoint.x > currentPoint.x + 20) {
-            [[_m physicsBody] applyImpulse:CGPointMake(400, 0)];
+            [_m walk:1];
         } else if(touchPoint.x < currentPoint.x - 20) {
-            [[_m physicsBody] applyImpulse:CGPointMake(-400, 0)];
+            [_m walk:-1];
         }
     }
 }
