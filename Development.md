@@ -9,6 +9,14 @@
 
 ## 動かし方
 
+2つの手順が必要です、リソースの配置とビルドです
+
+リソースの配置はSpriteBuilderにて[File]-[Open]を押下し、
+Study.spritebuilderという名前のファイルを選択し開きます
+開いた後、[File]-[Publish]を押下します
+これでリソースの配置が完了します
+
+次に実際にビルドしてみましょう
 Xcode(ver 6.1)でstudy.xcodeproを開き、
 [Product]-[Run]を実行してください
 
